@@ -1,8 +1,7 @@
 
-
 .header {
 
-  background-color: #291814;
+  background-color:#54592D;
 
   position: absolute;
   top: 0px;
@@ -33,4 +32,9 @@
 
 .main {
   margin-top: 80px;
+}
+
+.plantFont {
+  font-family: 'Noto Serif', serif;
+  ;
 }

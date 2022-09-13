@@ -32,7 +32,7 @@ export default function Home() {
 
       <Header></Header>
       <main className={styles.main}>
-        <h1>Plantas Transgênicas</h1>
+        <h1 className={styles.plantFont}>Plantas Transgênicas</h1>
         <h4><i>Trabalho por João Vitor Bernardis, Matheus Gambaro Guilherme, Jedson, Samuel e Vonexcius</i></h4>
         <section>
           <h2>Lorem Ipsum</h2>

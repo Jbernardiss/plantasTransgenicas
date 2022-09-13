@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
 html,
 body {
   padding: 0;
@@ -12,7 +15,7 @@ body {
 
   text-align: center;
 
-  background-color: #252617;
+  background-color: #A2A637;
   color: #FFFFF3;
 
   min-width: 320px;
