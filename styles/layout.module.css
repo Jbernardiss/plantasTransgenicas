@@ -34,7 +34,14 @@
   margin-top: 80px;
 }
 
-.plantFont {
-  font-family: 'Noto Serif', serif;
-  ;
+.textSection {
+  margin-left: 30%;
+  margin-right: 30%;
 }
+
+.mainTitle {
+  font-family: 'Noto Serif', serif;
+  text-decoration: underline;
+}
+
+
