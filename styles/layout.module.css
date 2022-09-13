@@ -1,0 +1,36 @@
+
+
+.header {
+
+  background-color: #291814;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.headerList {
+  display: flex;
+  flex-direction: row;
+  
+  text-decoration: none;
+  list-style: none;
+
+  padding: 0px;
+
+  margin: 0px;
+}
+
+.headerList li {
+  height: 60px;
+  width: 35%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 80px;
+}
