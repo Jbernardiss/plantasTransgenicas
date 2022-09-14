@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
 
 html,
 body {
@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 110%;
 
   display: flex;
   justify-content: center;
@@ -15,10 +16,23 @@ body {
 
   text-align: center;
 
-  background-color: #A2A637;
+  background-image: url("/images/vineBackground.png");
+  background-color: #7c7f2a;
+  
   color: #FFFFF3;
 
-  min-width: 320px;
+  min-width: 375px;
+}
+
+@media screen and (max-width: 635px) {
+  html,
+  body {
+    font-size: 100%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
 }
 
 a {
