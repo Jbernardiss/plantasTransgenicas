@@ -192,6 +192,37 @@ function Section4() {
   )
 }
 
+function Section5() {
+
+  return(
+    <section className={styles.noImgTextSection}>
+      <h2 className={utils.titleFont}>O porquê da polêmica</h2>
+      <div>
+        <div className={styles.noImgTextParagraphs}>
+          <p>
+            A polêmica sobre o tema tem muito haver com um acontecido que ocorreu no início dos anos 2000, uma multinacional alemã 
+            &quot;<Link href="https://en.wikipedia.org/wiki/Monsanto">Monsanto</Link>&quot; que lançou pela primeira vez algodão e soja resistentes a herbicida, porém isso não trouxe nenhum benefício nutricional aos clientes 
+            consumidores, apenas fazia a empresa lucrar o dobro do normal, trazendo uma má fama para os trangênicos
+          </p>
+          <p>
+            Além de que consequentemente com as plantas transgênicas resistentes a agrotóxicos, podemos entender que é possível colocar mais 
+            agrotóxicos nas plantas, ameaçando a nossa saúde e a tão famosa alimentação saudável
+          </p>
+          <p>
+            Porém temos o outro lado também, quem defende os transgênicos, dizem que eles  ajudam a aumentar a produtividade, fazendo com que 
+            não seja tão necessário desmatar tantas áreas
+          </p>
+          <p>
+            Porém nada é concreto ainda, mesmo com a ONU e outras organizações falando que as plantas transgênicas não trazem riscos
+          </p>
+        </div>
+      </div>
+    </section>
+  )
+
+  
+}
+
 export default function Home() {
 
   return (
@@ -217,6 +248,8 @@ export default function Home() {
         <Section3></Section3>
         
         <Section4></Section4>
+
+        <Section5></Section5>
       </main>
     </>
   )
