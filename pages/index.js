@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import styles from '../styles/layout.module.css'
+import styles from '../styles/main.layout.module.css'
 import utils from '../styles/utils.module.css'
 
 
@@ -11,8 +11,8 @@ function HeaderList() {
   return (
     <ul className={styles.headerList}>
       <li><Link href="/">Home</Link></li>
-      <li><Link href="/">Créditos</Link></li>
-      <li><Link href="/">Bibliografia</Link></li>
+      <li><Link href="/creditos">Créditos</Link></li>
+      <li><Link href="/bibliografia">Bibliografia</Link></li>
     </ul>
   )
 }
@@ -20,7 +20,7 @@ function HeaderList() {
 function Header() {
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id="header">
       <HeaderList></HeaderList>
     </header>
   )
@@ -223,7 +223,8 @@ function Section5() {
   
 }
 
-export default function Home() {
+
+function Home() {
 
   return (
     <>
@@ -239,7 +240,7 @@ export default function Home() {
         <h1 className={utils.titleFont}>
           Plantas Transgênicas
         </h1>
-        <h4><i>Trabalho por João Vitor Bernardis, Matheus Gambaro Guilherme, Jedson, Samuel e Vonexcius</i></h4>
+        <h4><i>Trabalho por João , Matheus , Jedson, Samuel e Vinícius</i></h4>
 
         <Section1></Section1>
 
@@ -250,9 +251,15 @@ export default function Home() {
         <Section4></Section4>
 
         <Section5></Section5>
+
       </main>
+
+      <footer className={styles.footer}>
+        <a href="#header">Retornar ao topo</a>
+      </footer>
     </>
   )
 }
 
-
+export default Home
+export { Header }
