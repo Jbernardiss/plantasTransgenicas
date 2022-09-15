@@ -37,11 +37,10 @@ body {
 
 a {
   color: #FFFFF3;
-  opacity: 50%;
-  text-decoration: none;
 }
 
 a:hover {
+  color: #393c1f;
   opacity: 100%;
 }
 
