@@ -1,0 +1,16 @@
+
+.titleFont {
+  font-style: italic;
+  font-family: 'Noto Serif', serif;
+  text-decoration: underline;
+}
+
+
+.listTitle {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Noto Serif', serif;
+  text-decoration: underline;
+  font-size: 120%;
+  list-style: none;
+}
