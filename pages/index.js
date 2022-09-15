@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import styles from '../styles/layout.module.css'
+import styles from '../styles/main.layout.module.css'
 import utils from '../styles/utils.module.css'
 
 
@@ -240,7 +240,7 @@ function Home() {
         <h1 className={utils.titleFont}>
           Plantas Transgênicas
         </h1>
-        <h4><i>Trabalho por João , Matheus , Jedson, Samuel e Vonexcius</i></h4>
+        <h4><i>Trabalho por João , Matheus , Jedson, Samuel e Vinícius</i></h4>
 
         <Section1></Section1>
 
