@@ -60,6 +60,54 @@
   text-align: left;
 }
 
+.textImage {
+  background-color: #54592D;
+  display: flex;
+  flex-direction: column;
+
+  border-style: solid;
+  border-color: #393c1f;
+  border-width: 3px;
+}
+
+.textImage span {
+  padding: 5px;
+  width: 100%;
+  max-width: 375px;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #393c1f;
+}
+
+
+.listParagraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.listParagraphs div {
+
+  position: sticky;
+  top: 10px;
+
+  max-width: 50%;
+
+  border: #393c1f;
+  border-width: 3px;
+
+  text-align: left;
+
+}
+
+
+.listParagraphs ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
 @media screen and (max-width: 635px) {
   .textSection {
     margin-left: 0px;
