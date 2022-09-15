@@ -21,7 +21,7 @@ body {
   
   color: #FFFFF3;
 
-  min-width: 375px;
+  min-width: 335px;
 }
 
 @media screen and (max-width: 635px) {
@@ -31,7 +31,7 @@ body {
   }
 
   h1 {
-    font-size: 200%;
+    font-size: 100%;
   }
 }
 
