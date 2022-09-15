@@ -85,20 +85,20 @@
   flex-direction: row;
   justify-content: space-around;
 
+  border-style: solid;
+  border-color: #393c1f;
+  border-width: 3px;
+
+  background-color: #54592D;
 }
 
 .listParagraphs div {
 
-  position: sticky;
-  top: 10px;
-
   max-width: 50%;
-
-  border: #393c1f;
-  border-width: 3px;
 
   text-align: left;
 
+  align-self: flex-start;
 }
 
 
@@ -115,6 +115,15 @@
   }
 
   .textParagraphs {
+    max-width: 90%;
+  }
+
+  .listParagraphs {
+
+    flex-direction: column;
+  }
+
+  .listParagraphs div {
     max-width: 90%;
   }
 }
