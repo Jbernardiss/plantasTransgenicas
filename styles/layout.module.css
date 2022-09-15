@@ -1,12 +1,6 @@
 
 .header {
-
   background-color:#54592D;
-
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
 
   border-color: #393c1f;
   border-style: solid;
@@ -23,8 +17,6 @@
   padding: 0px;
 
   margin: 0px;
-
-  min-width: 100px;
 }
 
 .headerList li {
@@ -51,13 +43,6 @@
 .main {
   margin-top: 80px;
 }
-
-.mainTitle {
-  font-family: 'Noto Serif', serif;
-  text-decoration: underline;
-}
-
-
 
 .textSection {
   margin-top: 40px;

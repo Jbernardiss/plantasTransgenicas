@@ -224,7 +224,7 @@ function Section5() {
 }
 
 
-export default function Home() {
+function Home() {
 
   return (
     <>
@@ -240,7 +240,7 @@ export default function Home() {
         <h1 className={utils.titleFont}>
           Plantas Transgênicas
         </h1>
-        <h4><i>Trabalho por João Vitor Bernardis, Matheus Gambaro Guilherme, Jedson, Samuel e Vonexcius</i></h4>
+        <h4><i>Trabalho por João , Matheus , Jedson, Samuel e Vonexcius</i></h4>
 
         <Section1></Section1>
 
@@ -252,12 +252,14 @@ export default function Home() {
 
         <Section5></Section5>
 
-        <footer className={styles.footer}>
-          <a href="#header">Return to top</a>
-        </footer>
       </main>
+
+      <footer className={styles.footer}>
+        <a href="#header">Retornar ao topo</a>
+      </footer>
     </>
   )
 }
 
-
+export default Home
+export { Header }
