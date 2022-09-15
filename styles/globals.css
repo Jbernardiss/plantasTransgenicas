@@ -24,17 +24,6 @@ body {
   min-width: 335px;
 }
 
-@media screen and (max-width: 635px) {
-  html,
-  body {
-    font-size: 100%;
-  }
-
-  h1 {
-    font-size: 100%;
-  }
-}
-
 a {
   color: #FFFFF3;
 }
@@ -50,4 +39,15 @@ h1 {
 
 * {
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 635px) {
+  html,
+  body {
+    font-size: 100%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
 }

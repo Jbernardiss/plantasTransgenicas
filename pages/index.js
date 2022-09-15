@@ -11,8 +11,8 @@ function HeaderList() {
   return (
     <ul className={styles.headerList}>
       <li><Link href="/">Home</Link></li>
-      <li><Link href="/">Créditos</Link></li>
-      <li><Link href="/">Bibliografia</Link></li>
+      <li><Link href="/creditos">Créditos</Link></li>
+      <li><Link href="/bibliografia">Bibliografia</Link></li>
     </ul>
   )
 }
@@ -20,7 +20,7 @@ function HeaderList() {
 function Header() {
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id="header">
       <HeaderList></HeaderList>
     </header>
   )
@@ -223,6 +223,7 @@ function Section5() {
   
 }
 
+
 export default function Home() {
 
   return (
@@ -250,6 +251,10 @@ export default function Home() {
         <Section4></Section4>
 
         <Section5></Section5>
+
+        <footer className={styles.footer}>
+          <a href="#header">Return to top</a>
+        </footer>
       </main>
     </>
   )

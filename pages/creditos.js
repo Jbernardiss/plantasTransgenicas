@@ -1,10 +1,18 @@
 
+import { Header } from './index.js'
+import Head from 'next/head'
+
+import styles from "../styles/layout.module.css"
 
 export default function Creditos() {
 
     return (
         <>
-          <h1>A</h1>
+          <Head>
+            <title>Plantas Trangênicas - Créditos</title>
+          </Head>
+
+          <Header></Header>
         </>
     )
 }
