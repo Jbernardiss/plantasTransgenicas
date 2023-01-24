@@ -13,4 +13,4 @@ This web app was deployed with [Vercel](https://vercel.com/)
   The website was created by me alone(the other people given credit in the website researched a part of the site content) with React JS and Next.js.
   The deploy was made with Vercel.
   
-  Overall this was a good project with satisfactory results(got a 9.5 or -A)and I was able to learn the basics of React and website making by puting my skills in a real project.
+  Overall this was a good project with satisfactory results(got a 9.5 or -A) so it was worth it. 
